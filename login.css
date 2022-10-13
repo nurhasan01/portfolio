@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap");
+
+body {
+  background-image: url(img/rushikesh-gaikwad-s8Q_ljbKf_M-unsplash.jpg);
+
+  color: white;
+  justify-content: center;
+  /* display: flex; */
+}
+
+.form {
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 8%;
+  background-color: #9dc8db98;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px #619faeb0;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fafafa;
+  font-size: 30px;
+  margin: 20px 0px 20px 0px;
+}
+
+label {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #d53b73;
+  margin-left: 10%;
+}
+
+input {
+  background: none;
+  border: none;
+  /* border-bottom: 0.5px solid #F4D390; */
+  width: 60%;
+  margin-bottom: 20px;
+  margin-top: 7px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px #626261b7;
+  margin-left: 10%;
+}
+
+input:hover {
+  background: none;
+  border: none;
+  width: 70%;
+  box-shadow: 1px 1px 5px 1px #626261b7;
+  transition: all 0.5s;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.645);
+  font-size: 17px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #d53b73;
+  border-bottom: 1px solid #d53b73;
+}
+
+input[type="submit"]{
+  background-color: #f4d390c0;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-left:10%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+input[type="submit"]:hover{
+  margin-left: 20%;
+  width: 60%;
+}
+
+span {
+  text-transform: lowercase;
+}

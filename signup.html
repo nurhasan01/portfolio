@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signup</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <section>
+      <div class="form">
+        <h1>sign up</h1>
+        <form action="signup">
+          <label for="fname"
+            >First name <br />
+            <input type="text" placeholder="John" required /></label
+          ><br />
+          <label for="lname"
+            >Last Name <br />
+            <input type="text" placeholder="Doe" required /></label
+          ><br />
+          <label for="username"
+            >User Name <br />
+            <input type="text" placeholder="johndoe01" required /><br
+          /></label>
+          <label for="email"
+            >Email <br />
+            <input
+              type="email"
+              placeholder="john123@gmail.com"
+              required /></label
+          ><br />
+          <label for="pwd"
+            >Password <br />
+            <input
+              type="password"
+              placeholder="must be 8 characters"
+              maxlength="8"
+              minlength="8"
+              required /></label
+          ><br />
+          <label for="pwd"
+            >Re-Password <br />
+            <input
+              type="password"
+              placeholder="password"
+              maxlength="8"
+              minlength="8"
+              required /></label
+          ><br />
+          <input type="checkbox" required />
+          <p id="term">
+            I agree to all the <a href="privacy-policy.html"> term & privecy policy</a>
+          </p>
+          <input type="submit" value="Sign up" />
+          <p>You have an account, <a href="login.html" > login</a></p>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
